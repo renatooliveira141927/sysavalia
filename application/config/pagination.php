@@ -1,0 +1,25 @@
+<?php
+$config['per_page'] = 10;
+$config['num_links'] = 4;
+$config['query_string_segment'] = 'page';
+$config['use_page_numbers'] = TRUE;
+$config['page_query_string'] = TRUE;
+$config['reuse_query_string'] = TRUE;
+$config['full_tag_open'] = '<div id="paginacao"><ul class="pagination pagination-sm">';
+$config['full_tag_close'] = '</ul></div>';
+$config['first_link'] = '<span class="fa fa-backward"></span>';
+$config['last_link'] = '<span class="fa fa-fast-forward"></span>';
+$config['next_link'] = '<span class="fa fa-chevron-right"></span>';
+$config['prev_link'] = '<span class="fa fa-chevron-left"></span>';
+$config['num_tag_open'] = '<li>';
+$config['num_tag_close'] = '</li>';
+$config['cur_tag_open'] = "<li class='active disabled'><a href='javascript:void(0);'>";
+$config['cur_tag_close'] = "</a></li>";
+$config['next_tag_open'] = "<li>";
+$config['next_tagl_close'] = "</li>";
+$config['prev_tag_open'] = "<li>";
+$config['prev_tagl_close'] = "</li>";
+$config['first_tag_open'] = "<li>";
+$config['first_tagl_close'] = "</li>";
+$config['last_tag_open'] = "<li>";
+$config['last_tagl_close'] = "</li>";
